@@ -3,7 +3,7 @@
 #include "socket.h"
 #include "wizchip_conf.h"
 
-#if LOOPBACK_MODE == LOOPBACK_MAIN_NOBLCOK
+#if LOOPBACK_MODE == LOOPBACK_MAIN_NOBLOCK
 
 int32_t loopback_tcps(uint8_t sn, uint8_t* buf, uint16_t port)
 {
